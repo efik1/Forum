@@ -1,0 +1,1 @@
+select * from users,posts,comments where (users.UserID = 1 and posts.UserID  = 1 and comments.UserID = 1 and comments.PostID = posts.PostID);
